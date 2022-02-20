@@ -29,3 +29,7 @@ urlField.onkeyup = () =>{
 
   hiddenField.value = imgTag.src;
 };
+
+document.querySelector("form").onsubmit = event =>{
+  event.preventDefault();
+};
