@@ -1,3 +1,6 @@
+<?php
+  if($_SERVER["REQUEST_METHOD"] == "POST"){}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +15,7 @@
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-  <form action="<?php echo $_SERVER['PHP_SELF']; ?>">
+  <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
     <header>Download Thumbnail</header>
     <div class="url-input">
       <span class="title">Paste video url:</span>
