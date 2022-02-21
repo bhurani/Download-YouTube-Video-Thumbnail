@@ -1,6 +1,8 @@
 <?php
   if($_SERVER["REQUEST_METHOD"] == "POST"){
-    if(!empty($_POST['imgurl'])){}
+    if(!empty($_POST['imgurl'])){
+      $img_url = $_POST['imgurl'];
+    }
   }
 ?>
 <!DOCTYPE html>
