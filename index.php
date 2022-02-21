@@ -1,5 +1,5 @@
 <?php
-  if($_SERVER["REQUEST_METHOD"] == "POST"){
+  if($_SERVER['REQUEST_METHOD'] == 'POST'){
     if(!empty($_POST['imgurl'])){
       $img_url = $_POST['imgurl'];
       $curl_handle = curl_init($img_url);
