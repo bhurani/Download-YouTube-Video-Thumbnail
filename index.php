@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-  <form>
+  <form action="<?php echo $_SERVER['PHP_SELF']; ?>">
     <header>Download Thumbnail</header>
     <div class="url-input">
       <span class="title">Paste video url:</span>
